@@ -1,0 +1,598 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+	margin-left:0;
+	margin-right:0;
+	padding:0;
+}
+
+
+/*MENU PRINCIPAL*/
+.intro{
+	margin:0px;
+	height:100%;
+	width:100%;
+}
+.intro h1{
+	color:white;
+	margin-left:200px;
+	margin-top:150px;
+}
+.intro img{
+	height: 100px;
+	width: 400px;
+	margin-top: 20px;
+}
+.contenups5 h2{
+	margin-top: 0;
+	text-align:center;
+	color:#0E196C;
+	font-size: 50px;
+	text-decoration: underline;
+}
+.contenups5cd img{
+	margin-top: 0;
+	margin-left:15%;
+}
+.contenups5 h4{
+	text-align: left;
+	color:red;
+	font-size: 40px;
+}
+
+.contenups5digi img{
+	margin-left:15%;
+}
+.fondpp{
+	background-color:#D3EEF0;
+}
+.presentation img{
+	width: 40%;
+	height:86%;
+	margin-left: 25%;
+	float:right;
+}
+.t1{
+	text-align:left;
+	font-size: 50px;
+}
+.t2{
+	text-align:center;
+	font-size: 30px;
+	text-decoration:underline;
+	color:#F53F63;
+}
+.t3{
+	text-align:center;
+	font-size:20px;
+}
+
+/* PAGE JEUX */
+
+header img{
+	height: 55px;
+	float:left;
+}
+
+*{
+	box-sizing: border-box;
+}
+/*ou si ca ne fonctionne pas remets #body2*/section{
+	font-family: arial,sans-serif;
+	font-size:16px;
+	line-height: 18px;
+}
+header a{
+	text-decoration: none;
+	color:black;
+}
+.navigation{
+	margin: 0 auto;
+	width:1000px;
+}
+header{
+	border-bottom: 1px solid #eee;
+}
+header li{
+	display:inline-block;
+	vertical-align: top;
+	position: relative;
+	/*border:solid;*/
+}
+header li a{
+	display:block;
+	padding:20px;
+}
+header li:hover a{
+	background-color: black;
+	color:#fff;
+}
+header li:hover .sub-menu{
+	display:block;
+	width: 100%;
+}
+.sub-menu{
+	display:none;
+	position: absolute;
+	background-color:black;
+	width:200px;
+    padding: 0;
+}
+.sub-menu li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.sub-menu li a{
+	color: #fff;
+}
+
+
+.slider{
+	width:1000px;
+	height:500px;
+	background:url("Images/nbaslide.jpg");
+	margin:100px auto;
+	animation: slide 15s infinite;
+}
+
+@keyframes slide{
+	25%{
+		background:url("Images/nbaslide.jpg");
+
+	}
+	50%{
+		background:url("Images/codslide.jpg");
+	}
+	75%{
+		background:url("Images/cyberpunkslide.jpg");
+	}
+	100%{
+		background:url("Images/acslide.jpg");
+	}
+}
+
+
+#titrens{
+    font-family: Arial,sans-serif;
+    color: #000;
+    text-decoration: overline solid #e4087e;
+    text-align: center;
+    font-size: 50;
+}
+
+#jselection img{
+	width:auto;
+	height:500px;
+	margin:100px;
+}
+
+.titrepjeux{
+	text-align: center;
+	font-size:50px;
+	font-family: arial,sans-serif;
+	font-weight: 500;
+	margin:10px;
+	text-decoration:underline solid #FF0000;
+	color:white;
+}
+.titrepjeuxp{
+	text-align: center;
+	font-size:50px;
+	font-family: arial,sans-serif;
+	font-weight: 500;
+	margin:10px;
+	text-decoration: overline solid #e4087e;
+}
+
+#jselection iframe{
+	float:right;
+	margin-right:250px;
+	margin-top:150px;
+}
+#contenufifa{
+	background:url("Images/fondfifa21.jpg");
+}
+#contenuwd{
+	background:url("Images/fondwdl.jpg");
+}
+#contenucb{
+	background:url("Images/fondcbp.jpg");
+		width:100%;
+	height:auto;
+	background-repeat:no-repeat;
+}
+
+#alignementpagejeux{
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+#pj2{
+    margin:40px;
+    width:auto;
+    height:500px;
+}
+
+#pj1{
+    width:auto;
+    height:480px;
+}
+
+#pj3{
+    width:auto;
+    height:500px;
+}
+#jdm1{
+	background: url("Images/justcause4pj.jpg");
+	width:100%;
+	height:100%;
+}
+.jeuxdumois p{
+	text-align: center;
+	font-family: cursive;
+	font-size:25px;
+	color:white;
+	display: inline-block;
+}
+.jeuxdumois #prix{
+	text-align:left;
+	color:red;
+	font-family: monospace;
+	font-size: 40px;
+}
+#jdm2{
+	background: url("Images/rocketarenapj.jpg");
+	width:100%;
+	height:100%;
+}
+
+
+ /*PAGE SERVICES*/
+.psplusabo{
+	margin-top:0px;
+}
+.psplusabo img{
+	margin:0px;
+	width:100%;
+	height:100%;
+	background-repeat:no-repeat;
+}
+
+.psplusabo h2{
+	text-align:center;
+	font-family:fantasy ;
+	font-size:60px;
+	color:black;
+}
+.psplusabo p{
+	margin-top:0px;
+	text-align:center;
+	font-family:cursive;
+	font-size:20px;
+}
+#psplusjdm{
+	width:100%;
+	height:100%;
+}
+.psplusabo a{
+	color:black;
+}
+.bonusexclusif{
+	background-color:black;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+#txtavantage{
+	padding: 50px;
+	text-align: center;
+	color:white;
+	font-size:40px;
+}
+.bonusexclusif h3{
+	color:white;
+	margin-top: -50px;
+	margin-left:15%;
+	font-size: 30px;
+}
+.bonusexclusif h4{
+	color:white;
+	margin-left:15%;
+}
+.h3jep{
+	text-align: right;
+	color:white;
+	margin-right:20%;
+	font-size: 30px;
+	padding-top: -50px;
+}
+.h4jep{
+	text-align: right;
+	color:white;
+	margin-right:15%;
+}
+.stockagebonus{
+	float: left;
+	height:600px;
+	width:600px;
+	margin-left: 5%;
+	margin-top: -150px;
+}
+.jeuenpartage{
+	float: right;
+	height:600px;
+	width:600px;
+	margin-right: 5%;
+	margin-top: -200px;
+}
+
+#cartecadeaux{
+	width: 440px;
+	height:420px;
+	float:left;
+	margin-left:10%;
+}
+#psstore{
+	width:50%;
+	height:auto;
+	float: right;
+	margin-right:5%;
+}
+
+.bouton{
+	background-color: #2CF5FF;
+	border:solid;
+	padding:10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	margin:10px;
+	cursor:pointer;
+	display: inline-block;
+ }
+
+
+
+/*PAGE EQUIPEMENT*/
+/*#2b2b35*/
+
+.hdp img{
+	margin:0;
+	width:100%;
+	height:100%;
+}
+.contenuequipement h2{
+	margin-top: 50px;
+	text-align: left;
+	position: relative;
+	font-size: 50px;
+}
+.contenuequipement h2::before{
+	content:"";
+	position:absolute;
+	background-color:#ADD981;
+	width:50px;
+	height:7px;
+	bottom:0;
+}
+#manette{
+	padding: 10px;
+	height:600px;
+}
+#manette img{
+	width:50%;
+	height:auto;
+	float:left;
+}
+#manette p{
+	margin-top: 150px;
+	font-size: 24px;
+	text-align: center;
+}
+.rechargementmanette{
+	background-color:#A6F2FB;
+	height:850px;
+}
+.rechargementmanette img{
+	float:right;
+	width:50%;
+	height:auto;
+}
+.rechargementmanette p{
+	font-size: 25px;
+	text-align:center;
+	margin-top:40px;
+}
+.rechargementmanette iframe{
+	margin-left: 100px;
+	margin-top: 100px;
+}
+#casque{
+	padding:10px;
+	height:850px;
+}
+#casque h2{
+	margin-top: 0;
+	text-align: left;
+	position: relative;
+	font-size: 50px;
+}
+#casque img{
+	width:30%;
+	height:auto;
+	float:left;
+}
+#casque p{
+	margin-top: 200px;
+	font-size: 30px;
+	text-align: center;
+}
+#telecommande{
+	background-color:#A6F2FB;
+	height:650px;
+}
+#telecommande img{
+	width:50%;
+	height:auto;
+	float:right;
+}
+#telecommande h3{
+	margin-top:100px;
+	font-size:25px;
+	text-align: center;
+}
+#telecommande p{
+	font-size:25px;
+	text-align: center;
+}
+#camera{
+	padding: 10px;
+	height: 750px;
+}
+#camera img{
+	width: 50%;
+	float:left;
+}
+#camera p{
+	margin-top: 150px;
+	font-size: 30px;
+	font-family: cursive;
+}
+
+
+
+/*PIED DE PAGE*/
+.contenu {
+    /* grow shrink basis */
+    flex: 1 0 auto;
+}
+.contenu p {
+    padding: 5vw 10vw;
+    text-align: justify;
+}
+
+footer {
+    flex-shrink: 0;
+    border-top: 1px solid black;
+    width: 100%;
+    background: #00439c;
+    color: white;
+}
+.contenu-footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
+
+.bloc {
+    width: 25%;
+    margin: 0 30px;
+}
+
+/* contact */
+.footer-contact h3,
+.footer-services h3,
+.footer-horaires h3,
+.footer-medias h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.footer-contact ul{
+	list-style-type: none;
+}
+.footer-contact a{
+	text-decoration: none;
+	color:white;
+}
+
+/* Services */
+
+
+.liste-services,
+.liste-horaires,
+.liste-media {
+    list-style-type: none;
+}
+
+.liste-horaires a{
+	text-decoration:none;
+	color:white;
+}
+
+
+.liste-services li {
+    padding: 2px 0;
+}
+.liste-services a {
+    text-decoration: none;
+    color: white;
+}
+.liste-partenaire a:hover {
+    color: rgb(3,3,3);
+}
+.liste-horaires a:hover {
+    color: rgb(3,3,3);
+}
+.liste-services a:hover {
+    color: rgb(3,3,3);
+}
+.liste-media a:hover {
+    color: rgb(3,3,3);
+}
+
+/* Medias */
+
+.liste-media {
+    position: relative;
+}
+.liste-media a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .contenu-footer {
+        width: 700px;
+        flex-wrap: wrap;
+    }
+    .bloc {
+        width: 40%;
+        margin: 0 0;
+    }
+    .bloc:nth-child(1),
+    .bloc:nth-child(2) {
+        margin-bottom: 50px;
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .contenu-footer {
+        width: 320px;
+    }
+    .bloc {
+        width: 300px;
+        margin: 30px 30px;
+    }
+    .bloc:nth-child(1),
+    .bloc:nth-child(2) {
+        margin-bottom: 30px;
+    }
+    .bloc:nth-child(1) {
+        margin-top: 0;
+    }
+}
